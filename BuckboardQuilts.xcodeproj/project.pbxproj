@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDE56EB1FB503F70006C30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE56EA1FB503F70006C30E /* AppDelegate.swift */; };
+		ACDE56ED1FB503F70006C30E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE56EC1FB503F70006C30E /* ViewController.swift */; };
+		ACDE56F01FB503F70006C30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDE56EE1FB503F70006C30E /* Main.storyboard */; };
+		ACDE56F31FB503F80006C30E /* BuckboardQuilts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACDE56F11FB503F70006C30E /* BuckboardQuilts.xcdatamodeld */; };
+		ACDE56F51FB503F80006C30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDE56F41FB503F80006C30E /* Assets.xcassets */; };
+		ACDE56F81FB503F80006C30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDE56F61FB503F80006C30E /* LaunchScreen.storyboard */; };
+		ACDE57031FB503F90006C30E /* BuckboardQuiltsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE57021FB503F90006C30E /* BuckboardQuiltsTests.swift */; };
+		ACDE570E1FB503FA0006C30E /* BuckboardQuiltsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE570D1FB503FA0006C30E /* BuckboardQuiltsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDE56FF1FB503F80006C30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDE56DF1FB503F60006C30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDE56E61FB503F60006C30E;
+			remoteInfo = BuckboardQuilts;
+		};
+		ACDE570A1FB503FA0006C30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDE56DF1FB503F60006C30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDE56E61FB503F60006C30E;
+			remoteInfo = BuckboardQuilts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDE56E71FB503F60006C30E /* BuckboardQuilts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckboardQuilts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDE56EA1FB503F70006C30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDE56EC1FB503F70006C30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDE56EF1FB503F70006C30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDE56F21FB503F70006C30E /* BuckboardQuilts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuckboardQuilts.xcdatamodel; sourceTree = "<group>"; };
+		ACDE56F41FB503F80006C30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDE56F71FB503F80006C30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDE56F91FB503F80006C30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDE56FE1FB503F80006C30E /* BuckboardQuiltsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckboardQuiltsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDE57021FB503F90006C30E /* BuckboardQuiltsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckboardQuiltsTests.swift; sourceTree = "<group>"; };
+		ACDE57041FB503FA0006C30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDE57091FB503FA0006C30E /* BuckboardQuiltsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckboardQuiltsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDE570D1FB503FA0006C30E /* BuckboardQuiltsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckboardQuiltsUITests.swift; sourceTree = "<group>"; };
+		ACDE570F1FB503FB0006C30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDE56E41FB503F60006C30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE56FB1FB503F80006C30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE57061FB503FA0006C30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDE56DE1FB503F60006C30E = {
+			isa = PBXGroup;
+			children = (
+				ACDE56E91FB503F60006C30E /* BuckboardQuilts */,
+				ACDE57011FB503F80006C30E /* BuckboardQuiltsTests */,
+				ACDE570C1FB503FA0006C30E /* BuckboardQuiltsUITests */,
+				ACDE56E81FB503F60006C30E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDE56E81FB503F60006C30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDE56E71FB503F60006C30E /* BuckboardQuilts.app */,
+				ACDE56FE1FB503F80006C30E /* BuckboardQuiltsTests.xctest */,
+				ACDE57091FB503FA0006C30E /* BuckboardQuiltsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDE56E91FB503F60006C30E /* BuckboardQuilts */ = {
+			isa = PBXGroup;
+			children = (
+				ACDE56EA1FB503F70006C30E /* AppDelegate.swift */,
+				ACDE56EC1FB503F70006C30E /* ViewController.swift */,
+				ACDE56EE1FB503F70006C30E /* Main.storyboard */,
+				ACDE56F41FB503F80006C30E /* Assets.xcassets */,
+				ACDE56F61FB503F80006C30E /* LaunchScreen.storyboard */,
+				ACDE56F91FB503F80006C30E /* Info.plist */,
+				ACDE56F11FB503F70006C30E /* BuckboardQuilts.xcdatamodeld */,
+			);
+			path = BuckboardQuilts;
+			sourceTree = "<group>";
+		};
+		ACDE57011FB503F80006C30E /* BuckboardQuiltsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDE57021FB503F90006C30E /* BuckboardQuiltsTests.swift */,
+				ACDE57041FB503FA0006C30E /* Info.plist */,
+			);
+			path = BuckboardQuiltsTests;
+			sourceTree = "<group>";
+		};
+		ACDE570C1FB503FA0006C30E /* BuckboardQuiltsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDE570D1FB503FA0006C30E /* BuckboardQuiltsUITests.swift */,
+				ACDE570F1FB503FB0006C30E /* Info.plist */,
+			);
+			path = BuckboardQuiltsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDE56E61FB503F60006C30E /* BuckboardQuilts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDE57121FB503FB0006C30E /* Build configuration list for PBXNativeTarget "BuckboardQuilts" */;
+			buildPhases = (
+				ACDE56E31FB503F60006C30E /* Sources */,
+				ACDE56E41FB503F60006C30E /* Frameworks */,
+				ACDE56E51FB503F60006C30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuckboardQuilts;
+			productName = BuckboardQuilts;
+			productReference = ACDE56E71FB503F60006C30E /* BuckboardQuilts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDE56FD1FB503F80006C30E /* BuckboardQuiltsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDE57151FB503FB0006C30E /* Build configuration list for PBXNativeTarget "BuckboardQuiltsTests" */;
+			buildPhases = (
+				ACDE56FA1FB503F80006C30E /* Sources */,
+				ACDE56FB1FB503F80006C30E /* Frameworks */,
+				ACDE56FC1FB503F80006C30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDE57001FB503F80006C30E /* PBXTargetDependency */,
+			);
+			name = BuckboardQuiltsTests;
+			productName = BuckboardQuiltsTests;
+			productReference = ACDE56FE1FB503F80006C30E /* BuckboardQuiltsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDE57081FB503FA0006C30E /* BuckboardQuiltsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDE57181FB503FB0006C30E /* Build configuration list for PBXNativeTarget "BuckboardQuiltsUITests" */;
+			buildPhases = (
+				ACDE57051FB503FA0006C30E /* Sources */,
+				ACDE57061FB503FA0006C30E /* Frameworks */,
+				ACDE57071FB503FA0006C30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDE570B1FB503FA0006C30E /* PBXTargetDependency */,
+			);
+			name = BuckboardQuiltsUITests;
+			productName = BuckboardQuiltsUITests;
+			productReference = ACDE57091FB503FA0006C30E /* BuckboardQuiltsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDE56DF1FB503F60006C30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Quinton Quaye";
+				TargetAttributes = {
+					ACDE56E61FB503F60006C30E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACDE56FD1FB503F80006C30E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACDE56E61FB503F60006C30E;
+					};
+					ACDE57081FB503FA0006C30E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACDE56E61FB503F60006C30E;
+					};
+				};
+			};
+			buildConfigurationList = ACDE56E21FB503F60006C30E /* Build configuration list for PBXProject "BuckboardQuilts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDE56DE1FB503F60006C30E;
+			productRefGroup = ACDE56E81FB503F60006C30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDE56E61FB503F60006C30E /* BuckboardQuilts */,
+				ACDE56FD1FB503F80006C30E /* BuckboardQuiltsTests */,
+				ACDE57081FB503FA0006C30E /* BuckboardQuiltsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDE56E51FB503F60006C30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDE56F81FB503F80006C30E /* LaunchScreen.storyboard in Resources */,
+				ACDE56F51FB503F80006C30E /* Assets.xcassets in Resources */,
+				ACDE56F01FB503F70006C30E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE56FC1FB503F80006C30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE57071FB503FA0006C30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDE56E31FB503F60006C30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDE56ED1FB503F70006C30E /* ViewController.swift in Sources */,
+				ACDE56EB1FB503F70006C30E /* AppDelegate.swift in Sources */,
+				ACDE56F31FB503F80006C30E /* BuckboardQuilts.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE56FA1FB503F80006C30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDE57031FB503F90006C30E /* BuckboardQuiltsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE57051FB503FA0006C30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDE570E1FB503FA0006C30E /* BuckboardQuiltsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDE57001FB503F80006C30E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDE56E61FB503F60006C30E /* BuckboardQuilts */;
+			targetProxy = ACDE56FF1FB503F80006C30E /* PBXContainerItemProxy */;
+		};
+		ACDE570B1FB503FA0006C30E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDE56E61FB503F60006C30E /* BuckboardQuilts */;
+			targetProxy = ACDE570A1FB503FA0006C30E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDE56EE1FB503F70006C30E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDE56EF1FB503F70006C30E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDE56F61FB503F80006C30E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDE56F71FB503F80006C30E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDE57101FB503FB0006C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDE57111FB503FB0006C30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDE57131FB503FB0006C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = BuckboardQuilts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.BuckboardQuilts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDE57141FB503FB0006C30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = BuckboardQuilts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.BuckboardQuilts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACDE57161FB503FB0006C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = BuckboardQuiltsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.BuckboardQuiltsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuckboardQuilts.app/BuckboardQuilts";
+			};
+			name = Debug;
+		};
+		ACDE57171FB503FB0006C30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = BuckboardQuiltsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.BuckboardQuiltsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuckboardQuilts.app/BuckboardQuilts";
+			};
+			name = Release;
+		};
+		ACDE57191FB503FB0006C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = BuckboardQuiltsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.BuckboardQuiltsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuckboardQuilts;
+			};
+			name = Debug;
+		};
+		ACDE571A1FB503FB0006C30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = BuckboardQuiltsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.BuckboardQuiltsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuckboardQuilts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDE56E21FB503F60006C30E /* Build configuration list for PBXProject "BuckboardQuilts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDE57101FB503FB0006C30E /* Debug */,
+				ACDE57111FB503FB0006C30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDE57121FB503FB0006C30E /* Build configuration list for PBXNativeTarget "BuckboardQuilts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDE57131FB503FB0006C30E /* Debug */,
+				ACDE57141FB503FB0006C30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDE57151FB503FB0006C30E /* Build configuration list for PBXNativeTarget "BuckboardQuiltsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDE57161FB503FB0006C30E /* Debug */,
+				ACDE57171FB503FB0006C30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDE57181FB503FB0006C30E /* Build configuration list for PBXNativeTarget "BuckboardQuiltsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDE57191FB503FB0006C30E /* Debug */,
+				ACDE571A1FB503FB0006C30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACDE56F11FB503F70006C30E /* BuckboardQuilts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACDE56F21FB503F70006C30E /* BuckboardQuilts.xcdatamodel */,
+			);
+			currentVersion = ACDE56F21FB503F70006C30E /* BuckboardQuilts.xcdatamodel */;
+			path = BuckboardQuilts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACDE56DF1FB503F60006C30E /* Project object */;
+}
